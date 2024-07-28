@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: us-central1-docker.pkg.dev/velvety-accord-430502-f0/gke-repo/art-demo@sha256:00622a6be8aa7118596a64ac191f90db790c463264b39536999ad15c007bac8a
+          image: us-central1-docker.pkg.dev/velvety-accord-430502-f0/gcr.io/velvety-accord-430502-f0/gke-cicd-app2
           ports:
             - containerPort: 8081
 
